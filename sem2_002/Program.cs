@@ -16,8 +16,6 @@ if (number > 99)
     if (number > 999999 & number < 10000000) number = number % 100000 / 10000;
     if (number > 9999999 & number < 100000000) number = number % 1000000 / 100000;
     if (number > 99999999 & number < 1000000000) number = number % 10000000 / 1000000;
-    if (number > 999999999 & number < 10000000000) number = number % 100000000 / 10000000;
-    if (number > 9999999999 & number < 100000000000) number = number % 1000000000 / 100000000;
     Console.WriteLine($"Третья цифра в этом числе > {number}");
 }
 
